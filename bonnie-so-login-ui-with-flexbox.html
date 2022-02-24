@@ -18,8 +18,8 @@
     border-style: solid;
     border-width: 4px;
     border-radius: 12px;
-    border-color: rgba(0,0,0,0.3);
-    background-color: rgba(52, 167, 202, 0.719);
+    border-color: rgba(20, 21, 22, 0.3);
+    background-color: rgba(240, 231, 231, 0.3);
     min-width: 30%;
     min-height: 20%;
     display: flex;
@@ -29,14 +29,22 @@
 }
 .username {
     font-size: medium;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
 }
 
 .password {
     font-size: medium;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
 }
 
 .button {
-    font-size: medium;
+    font-size: large;
+    border-radius: 100px;
+    background-color: #69D1C5; 
 }
     </style>
 <head>
@@ -49,21 +57,17 @@
     <div class="container">
         <div class="card">
             <h1> 
-                Log In
+                Sign In
             </h1>
             <p>
                 <form action="Log In">
-                    <label for="Username">Username</label>
-                    <br>
                     <input class="username"type="text" placeholder="Username">
                     <br>
-                    <br>
-                    <label for="Password">Password</label>
                     <br>
                     <input class="password" type="password" placeholder="Password">
                     <br>
                     <br>
-                    <button class="button" type="submit">Log In</button>
+                    <button class="button" type="submit">Sign In</button>
                 </form>
 
             </p>
